@@ -59,6 +59,12 @@
 			<version>${cdh.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+			<version>3.4.5-cdh5.15.1</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
